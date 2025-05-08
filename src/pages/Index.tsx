@@ -50,7 +50,7 @@ const Index = () => {
         />
         <div className="relative z-10 text-center px-4 max-w-3xl">
           <div className="inline-block bg-[#FFDEE2]/90 p-2 px-4 rounded-full mb-2 animate-fade-in">
-            <p className="text-sm font-medium">15 мая 2025</p>
+            <p className="text-sm font-medium">9 мая 2025</p>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 drop-shadow-lg">
             С Днём Рождения, Бабушка!
@@ -229,7 +229,7 @@ const Index = () => {
                 key={index}
                 onClick={() => setActiveImage(index)}
                 className={`w-3 h-3 rounded-full ${index === activeImage ? "bg-[#FEC6A1]" : "bg-gray-300"}`}
-              />
+              ></button>
             ))}
           </div>
         </div>
